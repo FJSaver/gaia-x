@@ -1,0 +1,23 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3c-ccg.github.io/lds-jws2020/contexts/v1/"
+  ],
+  "id": "did:web:raw.githubusercontent.com/FJSaver/gaia-x/refs/heads/master",
+  "verificationMethod": [
+    {
+      "id": "did:web:raw.githubusercontent.com/FJSaver/gaia-x/refs/heads/master#Key-0",
+      "type": "JsonWebKey2020",
+      "publicKeyJwk": {
+        "kty": "RSA",
+        "n": "8pF1nOBE_PEjhao67JdcUBV-qqDtu5_QRMj4dk4ByRj6vWtQjWF73A6POsiz-0lf9Nrd0LCh7BnIgbsyBVi802Dd9Qrfy-fJBCgv79vcBNinyj58ChUvRa55PdM6a_I97xg2-byMjvOFOqwpfXTDFYtb-s42Wsgoli0bup05Zy4I_zAeiM1rsRaUUT6zc6cT5AUlKYYqzcfqeo8cJgP5wJYOhSOQDEUQ9UtyuGfWS9BwbmWCyu0ZaS57zhWv4c-KmPQawf07ymA8ExZrMESjuc9MhCLSEmhccCbsvrQKTVEb_mopbhxNKMBXJUmRDZreH54Ycs5TUd4ozxNVZFeCZQ",
+        "e": "AQAB",
+        "alg":  "RS256",
+        "x5u": "https://raw.githubusercontent.com/FJSaver/gaia-x/refs/heads/master/cert.pem"
+      }
+    }
+  ],
+  "assertionMethod": [
+    "did:web:raw.githubusercontent.com/FJSaver/gaia-x/refs/heads/master#Key-0"
+  ]
+}
